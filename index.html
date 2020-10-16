@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>NBA in your Backyard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="styles/mystyles.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+    <h1 style="font-size: 50px;">NBA Games</h1>
+    
+    <img src="images/bggg.jpg" alt="NBA">
+    <h4>About</h4>
+    <div style="font-size: 20px;">The National Basketball Association is an American men's professional basketball league. It is composed of 30 teams and is one of the four major professional sports leagues in the United States and Canada. It is the premier men's professional basketball league in the world.Grab your seats to this amazing event now. </div>
+    <br><br><br><br>
+    <form action="thankyou.html" autocomplete="on">
+
+        Name:   <input type="text" name="name" required><br><br>
+
+        E-Mail:   <input type="email" name="email" required><br><br>
+
+        Phone number:   <input type="number" name="no" required><br><br>
+
+        No of Matches:  <input type="radio" name="nom" required> 1
+                        <input type="radio" name="nom" required> 2
+                        <input type="radio" name="nom" required> 3
+                        <input type="radio" name="nom" required> 4<br><br>
+
+        Matches: <input type="checkbox" name="match"> LAL V/S HOU 
+                <input type="checkbox" name="match"> DEN V/S LAC
+                <input type="checkbox" name="match"> MIL V/S MIA
+                <input type="checkbox" name="match"> BOS V/S TOR<br><br>
+        
+        Date of Booking (with time): <input type="datetime-local" name="datentime" required><br><br>
+
+        No of tickets (min 2 - max 10): <input type="range" max="10" min="2" value="2" step="1" oninput="this.nextElementSibling.value = this.value" required><br><br>
+
+        
+        <input type="image" src="images/booknow.jpg"><br><br>
+        <input type="reset" value="RESET" style="width: 59px;">
+        <output>2</output>
+            
+        <br><br>
+
+        <a href="https://in.nba.com/?gr=www">
+            <img src="images/nba.png" alt="logo">
+        </a>
+        
+
+    </form>
+
+
+
+</body>
+
+
+
+
+</html>
